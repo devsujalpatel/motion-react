@@ -11,6 +11,10 @@ export const Button = () => {
         rotateY: 10,
         boxShadow: "0px 20px 50px rgba(8,112,184,0.7)",
       }}
+      whileTap={{
+        scale: 0.9,
+        transition: { duration: 0.1 },
+      }}
       transition={{ duration: 0.3, ease: "easeInOut" }}
       style={{
         translateZ: 100,
