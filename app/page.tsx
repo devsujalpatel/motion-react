@@ -8,7 +8,7 @@ export default function Home() {
         backgroundSize: "8px 8px",
         backgroundRepeat: "repeat",
       }}
-      className="bg-neutral-950 h-screen w-full flex items-center justify-center flex-col gap-4"
+      className="bg-neutral-950 h-screen w-full flex items-center justify-center flex-col gap-4 [perspective::1000px] [transform-style:preserve-3d] "
     >
       <Button />
     </div>
