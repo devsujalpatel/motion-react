@@ -1,11 +1,11 @@
 "use client";
 
-import { Navbar } from "@/components/Navbar";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const Home = () => {
   return (
-    <div className="bg-white min-h-screen text-black">
-      <Navbar />
+    <div className="flex min-h-screen items-center justify-center bg-neutral-950">
+      <AnimatedText />
     </div>
   );
 };
