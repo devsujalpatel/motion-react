@@ -1,11 +1,11 @@
 "use client";
 
-import { LayoutCards } from "@/components/LayoutCards";
+import { Navbar } from "@/components/Navbar";
 
 const Home = () => {
   return (
-    <div>
-      <LayoutCards />
+    <div className="bg-white min-h-screen text-black">
+      <Navbar />
     </div>
   );
 };
