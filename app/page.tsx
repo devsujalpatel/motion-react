@@ -1,11 +1,11 @@
 "use client";
 
-import { AnimationPage } from "@/components/AnimationPage";
+import { LayoutCards } from "@/components/LayoutCards";
 
 const Home = () => {
   return (
     <div>
-      <AnimationPage />
+      <LayoutCards />
     </div>
   );
 };

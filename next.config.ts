@@ -1,10 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
-    domains: ["images.unsplash.com", "ui.aceternity.com", "assets.aceternity.com"],
-  }
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**", // allows all hosts
+      },
+    ],
+    unoptimized: true, // disables optimization pipeline
+  },
 };
 
 export default nextConfig;
